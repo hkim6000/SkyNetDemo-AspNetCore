@@ -31,60 +31,13 @@ The project consistently follows several powerful architectural patterns that ar
 •	UI is dynamically rendered based on these permissions, ensuring users only see and interact with functions they are authorized to use<br>
 •	Database-driven permission matrix for flexible security configuration<br><br>
 
-<b>2. Key Modules and Functionality</b><br>
-<b>Authentication Flow</b><br>
-•	XysSignin, XysPass, XysVerify: Complete and secure authentication module<br>
-•	User lookup, password verification (encrypted)<br>
-•	Cookie-based session management (AppKey)<br>
-•	Sign-up flow with email-based One-Time Passcodes (OTP)<br>
-•	Two-factor authentication support<br><br>
-<b>WebBase - The Application's Core</b><br>
-•	Central class that inherits from WebPage<br>
-•	Provides shared functionality to all other pages: <br>
-o	Session management<br>
-o	Permission checking<br>
-o	Dynamic menu/button generation<br>
-o	Translation dictionary loading<br>
-o	File upload/download handling<br>
-•	Drastically reduces code duplication and enforces consistency<br>
-<b>Data-Driven UI (SQLGridSection)</b><br>
-•	"Main View" (*MV) pages showcase the power of SQLGridSection<br>
-•	Entire UI for displaying, paging, sorting, and filtering complex data generated from a single, declarative SQLGridInfo object<br>
-•	Directly tied to SQL queries with full parameterization<br>
-•	Built-in features: sorting, pagination, filtering, custom column rendering
-Dynamic Edit Forms<br>
-•	"Edit View" (*EV) pages demonstrate data entry forms using: <br>
-o	Texts (text, password, date, email, etc.)<br>
-o	Dropdown (with database binding)<br>
-o	CheckBox, Switch, TextArea<br>
-o	FileUpload, ImageBox
-•	Contains SaveView and DeleteView logic
-•	Uses parameterized queries for secure database updates
-Translation Engine (Translator)
-•	Application is fully internationalized
-•	All visible text abstracted using Translator.Format("key")
-•	Language dictionaries loaded from database for each page
-•	Fallback mechanism: specific locale → language code → en-US
-•	Supports multiple languages per installation
-File Management
-•	Bulletin and user profile sections demonstrate: 
-o	File uploads with GUID-based storage
-o	File association with data records via FileRefId
-o	Secure, time-limited download links (encrypted tokens)
-o	Automatic cleanup and reference tracking
-Multi-Language Support
-•	Complete dictionary management (XysDict)
-•	Language configuration (XysLang)
-•	Page-level and global translations
-•	Dynamic language switching
-________________________________________
-3. Code-Level Best Practices
-Security First
-•	Parameterized Queries: All data manipulation functions use SqlParameter lists to prevent SQL injection vulnerabilities
-•	Encrypted Passwords: Encryptor.EncryptData() for secure password storage
-•	Encrypted Cookies: SerializeObjectEnc() for secure session data
-•	Time-Limited Download Tokens: File downloads protected with encrypted, expiring URLs
-•	Method-Level Permissions: Every API method checked against user role permissions
+<b>2. Code-Level Best Practices</b><br>
+<b>Security First</b><br>
+•	Parameterized Queries: All data manipulation functions use SqlParameter lists to prevent SQL injection vulnerabilities<br>
+•	Encrypted Passwords: Encryptor.EncryptData() for secure password storage<br>
+•	Encrypted Cookies: SerializeObjectEnc() for secure session data<br>
+•	Time-Limited Download Tokens: File downloads protected with encrypted, expiring URLs<br>
+•	Method-Level Permissions: Every API method checked against user role permissions<br><br>
 Clean Architecture
 •	Centralized Constants: References structure provides single source for page names, session keys, element IDs
 •	Separation of Concerns: Clear boundaries between data access, business logic, and presentation
