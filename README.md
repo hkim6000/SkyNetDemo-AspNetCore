@@ -219,10 +219,10 @@ The SkyNetDemo project is a masterclass in building a secure, scalable, and main
 SkyNet brings the proven patterns of SKYLITE to the modern .NET ecosystem, providing a clear migration path for legacy applications while enabling new projects to benefit from cross-platform, cloud-ready ASP.NET Core.<br>
 
 <br>
-- SKYLITE framework<br>
+- SKYLITE framework (C#/VB) <br>
 Platform: IIS / .Net framework 4.5 +<br>
 
-- SKYNET framework<br>
+- SKYNET framework (C# only)<br>
 Platform: ASP.NET Core / .NET 10<br>
 Architecture: Middleware-based <br>
 
