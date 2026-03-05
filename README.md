@@ -83,53 +83,59 @@ ASPNETCoreWeb/<br>
 
 **** unzip "bin.zip" and copy to project folder<br>
 
+----------------------------------------------------------------------------------------<br>
 
 <h3>Getting Started</h3><br>
 
-//////////////////////////////////////////////////////////
-//  0.prerequisite : install - view terminal & Edit project file
-//  - dotnet add package Microsoft.Data.SqlClient
-//  - dotnet add package System.Drawing.Common
-//  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false
-//////////////////////////////////////////////////////////
+<b>program.cs</b><br><br>
 
-//////////////////////////////////////////////////////////
-//1.Add HttpContext Service
-//////////////////////////////////////////////////////////
-builder.Services.AddHttpContextAccessor(); 
-//////////////////////////////////////////////////////////
+using System.Reflection.Metadata;<br>
+using SkyNet;<br>
+<br>
+var builder = WebApplication.CreateBuilder(args);<br>
+<br>
+//////////////////////////////////////////////////////////<br>
+//  0.prerequisite : install - view terminal & Edit project file<br>
+//  - dotnet add package Microsoft.Data.SqlClient<br>
+//  - dotnet add package System.Drawing.Common<br>
+//  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false<br>
+//////////////////////////////////////////////////////////<br>
 
-var app = builder.Build();
+//////////////////////////////////////////////////////////<br>
+//1.Add HttpContext Service<br>
+builder.Services.AddHttpContextAccessor(); <br>
+//////////////////////////////////////////////////////////<br>
 
-//////////////////////////////////////////////////////////
-//2. use SKYNET.IHANDLER as middleware service
-//////////////////////////////////////////////////////////
-app.UseMiddleware<IHandler>();
-//////////////////////////////////////////////////////////
+var app = builder.Build();<br>
 
+//////////////////////////////////////////////////////////<br>
+//2. use SKYNET.IHANDLER as middleware service<br>
+//////////////////////////////////////////////////////////<br>
+app.UseMiddleware<IHandler>();<br>
+//////////////////////////////////////////////////////////<br>
  
-//////////////////////////////////////////////////////////
-//3. use static http class service
-//////////////////////////////////////////////////////////
-app.UseStaticHttpCurrent(); 
-//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////<br>
+//3. use static http class service<br>
+//////////////////////////////////////////////////////////<br>
+app.UseStaticHttpCurrent(); <br>
+//////////////////////////////////////////////////////////<br>
+<br>
+app.Run();<br>
+<br>
+//////////////////////////////////////////////////////////<br>
+/// 4. define "StaticHttpCurrent"<br>
+//////////////////////////////////////////////////////////<br>
+public static class StaticHttpCurrent<br>
+{<br>
+    public static void UseStaticHttpCurrent(this IApplicationBuilder app)<br>
+    {<br>
+        var httpContextAccessor = app.ApplicationServices.GetRequiredService<IHttpContextAccessor>();<br>
+        var WebHostEnvironment = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();<br>
+        SkyNet.HttpCurrent.Configure(httpContextAccessor, WebHostEnvironment);<br>
+    }<br>
+}<br>
 
-app.Run();
-
-
-//////////////////////////////////////////////////////////
-/// 4. define "StaticHttpCurrent"
-//////////////////////////////////////////////////////////
-public static class StaticHttpCurrent
-{
-    public static void UseStaticHttpCurrent(this IApplicationBuilder app)
-    {
-        var httpContextAccessor = app.ApplicationServices.GetRequiredService<IHttpContextAccessor>();
-        var WebHostEnvironment = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();
-        SkyNet.HttpCurrent.Configure(httpContextAccessor, WebHostEnvironment);
-    }
-}
-//////////////////////////////////////////////////////////________________________________________
+<br>
 Key Features Demonstrated
 🔐 Complete Authentication System
 •	Secure login with encrypted passwords
