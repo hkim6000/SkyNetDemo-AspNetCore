@@ -11,9 +11,10 @@ The application presents a classic dashboard-style interface, typical of an admi
 SkyNet is the next-generation evolution of the SKYLITE framework(.Net framework 4.5+), rebuilt from the ground up for ASP.NET Core and .NET 10, providing a modern, cross-platform foundation while maintaining the same elegant patterns and developer-friendly API.
 
 <h3>Architectural and Feature Highlights</h3>
-1. Core Architectural Patterns & Design Choices
-The project consistently follows several powerful architectural patterns that are central to the SkyNet philosophy:
-Middleware-Based Architecture
+<b>1. Core Architectural Patterns & Design Choices</b>b<br>
+The project consistently follows several powerful architectural patterns that are central to the SkyNet philosophy:<br>
+
+<b>Middleware-Based Architecture</b>
 •	Custom IHandler Middleware: SkyNet operates as ASP.NET Core middleware, registered via app.UseMiddleware<IHandler>() in Program.cs
 •	Clean integration with the ASP.NET Core pipeline while maintaining framework independence
 •	Full control over request/response lifecycle without the constraints of MVC or Razor Pages
