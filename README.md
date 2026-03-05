@@ -1,26 +1,285 @@
-<article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">SkyLiteDemo Project: A SkyLite Framework Showcase</h2><a id="user-content-skylitedemo-project-a-skylite-framework-showcase" class="anchor" aria-label="Permalink: SkyLiteDemo Project: A SkyLite Framework Showcase" href="#skylitedemo-project-a-skylite-framework-showcase"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">Educational purposes</h2><a id="user-content-educational-purposes" class="anchor" aria-label="Permalink: Educational purposes" href="#educational-purposes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-Attached MS-SQL Database : SKYLITEDEMO.BAK (full-backup)<br>
-<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">Introduction</h4><a id="user-content-introduction" class="anchor" aria-label="Permalink: Introduction" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-This SkyLiteDemo project serves as a comprehensive and practical showcase of the SkyLite framework's capabilities for building modern, data-driven web applications. It demonstrates how various UI controls and core framework features can be seamlessly integrated to create a cohesive, interactive, and personalized user experience.
-The application presents a classic dashboard-style interface, typical of an administrative portal or a logged-in user's home page, and effectively utilizes the framework's server-centric, AJAX-driven architecture.
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Architectural and Feature Highlights</h3><a id="user-content-architectural-and-feature-highlights" class="anchor" aria-label="Permalink: Architectural and Feature Highlights" href="#architectural-and-feature-highlights"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">1. Core Architectural Patterns &amp; Design Choices</h4><a id="user-content-1-core-architectural-patterns--design-choices" class="anchor" aria-label="Permalink: 1. Core Architectural Patterns &amp; Design Choices" href="#1-core-architectural-patterns--design-choices"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-The project consistently follows several powerful architectural patterns that are central to the SkyLite philosophy:<br>
-•	Model-View (MV/EV) Pattern: The project is architected around a clear separation of concerns using "Main Views" (MV) for displaying lists of data and "Edit Views" (EV) for creating or editing individual records. This pattern is facilitated by a custom WebBase class that manages a ViewPart object, which acts as a ViewModel, holding the state and data for the current view.<br>
-•	Single-Page Application (SPA)-like Navigation: The application avoids full page reloads for most actions. A main "shell" page (e.g., XysUser.vb) loads the master layout, and the content area is dynamically replaced with partial views (MV or EV) using ApiResponse commands (SetElementContents), creating a seamless user experience.<br>
-•	Robust Role-Based Access Control (RBAC): Security is deeply integrated. The WebBase class centralizes permission checking for both page access (ViewAccess()) and specific actions/methods (ViewMethods()). The UI is then dynamically rendered based on these permissions, ensuring users only see and interact with the functions they are authorized to use.<br>
-<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">2. Key Modules and Functionality</h4><a id="user-content-2-key-modules-and-functionality" class="anchor" aria-label="Permalink: 2. Key Modules and Functionality" href="#2-key-modules-and-functionality"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-•	Authentication Flow (XysSignin, XysPass, XysVerify): A complete and secure authentication module demonstrating user lookup, password verification, cookie-based session management (AppKey), and a sign-up flow with email-based One-Time Passcodes (OTP).<br>
-•	WebBase.vb - The Application's Core: This central class inherits from WebPage and provides shared functionality to all other pages, including session management, permission checking, dynamic menu/button generation, and loading of translation dictionaries. This drastically reduces code duplication and enforces consistency.<br>
-•	Data-Driven UI (SQLGridSection): The "Main View" (*MV.vb) pages showcase the power of the SQLGridSection. The entire UI for displaying, paging, and sorting complex data is generated from a single, declarative SQLGridInfo object, which is directly tied to a SQL query.<br>
-•	Dynamic Edit Forms: The "Edit View" (*EV.vb) pages demonstrate how to build data entry forms using a combination of Texts, Dropdown, CheckBox, and other controls. They contain the SaveView and DeleteView logic, including the use of parameterized queries for secure database updates.<br>
-•	Translation Engine (Translator): The application is fully internationalized. All visible text is abstracted using Translator.Format("key"), with language dictionaries being loaded from the database for each page.<br>
-•	File Management: The bulletin and user profile sections demonstrate handling file uploads, associating them with data records, and providing secure download links.<br>
-<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto">3. Code-Level Best Practices</h4><a id="user-content-3-code-level-best-practices" class="anchor" aria-label="Permalink: 3. Code-Level Best Practices" href="#3-code-level-best-practices"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-•	Parameterized Queries: All data manipulation functions use SqlParameter lists to prevent SQL injection vulnerabilities, a critical security practice.<br>
-•	Centralized Constants: The References structure provides a single, strongly-typed source for all page names, session keys, and element IDs, making the code highly maintainable and reducing the risk of typos.<br>
-•	Thin Client: The JavaScript files are kept minimal and are primarily responsible for gathering data from the DOM and initiating an $ApiRequest. All significant logic, validation, and UI orchestration are handled securely on the server.<br>
-<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">Conclusion</h3><a id="user-content-conclusion" class="anchor" aria-label="Permalink: Conclusion" href="#conclusion"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-The SkyLiteDemo project is a masterclass in building a secure, scalable, and maintainable web application with the SkyLite framework. Its architecture is perfectly suited for complex business applications like ERPs, CRMs, or internal admin portals where data integrity, role-based security, and rapid development of standardized forms are paramount. The clear separation of concerns through the MV/EV pattern and the power of high-level data-driven controls showcase a framework that is both powerful and elegantly designed for its purpose.
-</article>
+<h2>SkyNetDemo Project: A SkyNet Framework Showcase</h2>
+
+<h3>Modern ASP.NET Core Implementation | .NET 10</h3>
+<h4>Educational purposes</h4>
+<h4>Demo.Site:  https://www.theskylite.com/SkyLiteProject</h4>
+________________________________________
+Introduction
+The SkyNetDemo project serves as a comprehensive and practical showcase of the SkyNet framework's capabilities for building modern, data-driven web applications on ASP.NET Core. It demonstrates how various UI controls and core framework features can be seamlessly integrated to create a cohesive, interactive, and personalized user experience.
+The application presents a classic dashboard-style interface, typical of an administrative portal or a logged-in user's home page, and effectively utilizes the framework's server-centric, AJAX-driven architecture built on modern ASP.NET Core middleware.
+SkyNet is the next-generation evolution of the SKYLITE framework(.Net framework 4.5+), rebuilt from the ground up for ASP.NET Core and .NET 10, providing a modern, cross-platform foundation while maintaining the same elegant patterns and developer-friendly API.
+________________________________________
+Architectural and Feature Highlights
+1. Core Architectural Patterns & Design Choices
+The project consistently follows several powerful architectural patterns that are central to the SkyNet philosophy:
+Middleware-Based Architecture
+•	Custom IHandler Middleware: SkyNet operates as ASP.NET Core middleware, registered via app.UseMiddleware<IHandler>() in Program.cs
+•	Clean integration with the ASP.NET Core pipeline while maintaining framework independence
+•	Full control over request/response lifecycle without the constraints of MVC or Razor Pages
+
+Single-Page Application (SPA)-like Navigation
+•	The application avoids full page reloads for most actions
+•	A main "shell" page (e.g., XysUser/XysUser.cs) loads the master layout
+•	Content area is dynamically replaced with partial views (MV or EV) using ApiResponse commands (SetElementContents)
+•	Creates a seamless, modern user experience with minimal JavaScript
+Robust Role-Based Access Control (RBAC)
+•	Security is deeply integrated throughout the framework
+•	The WebBase class centralizes permission checking for both page access (ViewAccess()) and specific actions/methods (ViewMethods())
+•	UI is dynamically rendered based on these permissions, ensuring users only see and interact with functions they are authorized to use
+•	Database-driven permission matrix for flexible security configuration
+________________________________________
+2. Key Modules and Functionality
+Authentication Flow
+•	XysSignin, XysPass, XysVerify: Complete and secure authentication module
+•	User lookup, password verification (encrypted)
+•	Cookie-based session management (AppKey)
+•	Sign-up flow with email-based One-Time Passcodes (OTP)
+•	Two-factor authentication support
+WebBase - The Application's Core
+•	Central class that inherits from WebPage
+•	Provides shared functionality to all other pages: 
+o	Session management
+o	Permission checking
+o	Dynamic menu/button generation
+o	Translation dictionary loading
+o	File upload/download handling
+•	Drastically reduces code duplication and enforces consistency
+Data-Driven UI (SQLGridSection)
+•	"Main View" (*MV) pages showcase the power of SQLGridSection
+•	Entire UI for displaying, paging, sorting, and filtering complex data generated from a single, declarative SQLGridInfo object
+•	Directly tied to SQL queries with full parameterization
+•	Built-in features: sorting, pagination, filtering, custom column rendering
+Dynamic Edit Forms
+•	"Edit View" (*EV) pages demonstrate data entry forms using: 
+o	Texts (text, password, date, email, etc.)
+o	Dropdown (with database binding)
+o	CheckBox, Switch, TextArea
+o	FileUpload, ImageBox
+•	Contains SaveView and DeleteView logic
+•	Uses parameterized queries for secure database updates
+Translation Engine (Translator)
+•	Application is fully internationalized
+•	All visible text abstracted using Translator.Format("key")
+•	Language dictionaries loaded from database for each page
+•	Fallback mechanism: specific locale → language code → en-US
+•	Supports multiple languages per installation
+File Management
+•	Bulletin and user profile sections demonstrate: 
+o	File uploads with GUID-based storage
+o	File association with data records via FileRefId
+o	Secure, time-limited download links (encrypted tokens)
+o	Automatic cleanup and reference tracking
+Multi-Language Support
+•	Complete dictionary management (XysDict)
+•	Language configuration (XysLang)
+•	Page-level and global translations
+•	Dynamic language switching
+________________________________________
+3. Code-Level Best Practices
+Security First
+•	Parameterized Queries: All data manipulation functions use SqlParameter lists to prevent SQL injection vulnerabilities
+•	Encrypted Passwords: Encryptor.EncryptData() for secure password storage
+•	Encrypted Cookies: SerializeObjectEnc() for secure session data
+•	Time-Limited Download Tokens: File downloads protected with encrypted, expiring URLs
+•	Method-Level Permissions: Every API method checked against user role permissions
+Clean Architecture
+•	Centralized Constants: References structure provides single source for page names, session keys, element IDs
+•	Separation of Concerns: Clear boundaries between data access, business logic, and presentation
+•	Reusable Components: Base classes and shared utilities minimize code duplication
+Thin Client Pattern
+•	JavaScript files kept minimal
+•	Primary responsibilities: DOM data collection and $ApiRequest initiation
+•	All significant logic, validation, and UI orchestration handled securely on server
+•	Reduces client-side complexity and attack surface
+Modern .NET Practices
+•	Built on ASP.NET Core and .NET 10
+•	Cross-platform compatibility (Windows, Linux, macOS)
+•	Can run on IIS, Kestrel, or Docker
+•	Cloud-ready and container-friendly
+________________________________________
+Project Structure
+SkyNetDemo/
+├── Codes/              # Business logic classes (C#)
+│   ├── XysUser         # User management main page
+│   ├── XysUserMV       # User list view
+│   ├── XysUserEV       # User edit view
+│   ├── XysRole         # Role management
+│   ├── XysPermission   # Permission matrix
+│   └── ...
+├── Bin/
+│   └── SkyNet.dll ++        # ⭐ Core framework (single dependency)
+├── appConfig/
+│   └── application.cfg    # Application configuration
+├── data/                  # Data storage folder
+├── htmls/                 # HTML email templates
+├── images/                # Static images
+├── logs/                  # Application logs
+├── scripts/               # JavaScript files
+│   ├── Home.js
+│   └── WebScript.js
+├── styles/                # CSS stylesheets
+│   ├── Home.css
+│   └── WebStyle.css
+├── temp/                  # Temporary files
+├── Program.cs             # ASP.NET Core startup
+
+
+**** unzip "bin.zip" and copy to project folder
+________________________________________
+Getting Started
+
+//////////////////////////////////////////////////////////
+//  0.prerequisite : install - view terminal & Edit project file
+//  - dotnet add package Microsoft.Data.SqlClient
+//  - dotnet add package System.Drawing.Common
+//  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false
+//////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////
+//1.Add HttpContext Service
+//////////////////////////////////////////////////////////
+builder.Services.AddHttpContextAccessor(); 
+//////////////////////////////////////////////////////////
+
+var app = builder.Build();
+
+//////////////////////////////////////////////////////////
+//2. use SKYNET.IHANDLER as middleware service
+//////////////////////////////////////////////////////////
+app.UseMiddleware<IHandler>();
+//////////////////////////////////////////////////////////
+
+ 
+//////////////////////////////////////////////////////////
+//3. use static http class service
+//////////////////////////////////////////////////////////
+app.UseStaticHttpCurrent(); 
+//////////////////////////////////////////////////////////
+
+app.Run();
+
+
+//////////////////////////////////////////////////////////
+/// 4. define "StaticHttpCurrent"
+//////////////////////////////////////////////////////////
+public static class StaticHttpCurrent
+{
+    public static void UseStaticHttpCurrent(this IApplicationBuilder app)
+    {
+        var httpContextAccessor = app.ApplicationServices.GetRequiredService<IHttpContextAccessor>();
+        var WebHostEnvironment = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();
+        SkyNet.HttpCurrent.Configure(httpContextAccessor, WebHostEnvironment);
+    }
+}
+//////////////////////////////////////////////////////////________________________________________
+Key Features Demonstrated
+🔐 Complete Authentication System
+•	Secure login with encrypted passwords
+•	Email-based registration with OTP verification
+•	Password reset flow
+•	Session management with encrypted cookies
+•	Two-factor authentication support
+👥 User & Role Management
+•	Full CRUD operations for users
+•	Role assignment and management
+•	Hierarchical permission system
+•	User profile with photo upload
+•	Account status management (active/suspended/terminated)
+🛡️ Permission Matrix
+•	Page-level access control
+•	Menu-level permissions
+•	Button/action-level permissions
+•	Dynamic UI based on user role
+•	Database-driven permission configuration
+🌍 Multi-Language Support
+•	Complete translation system
+•	Language selection per user
+•	Page-specific and global translations
+•	Fallback language support
+•	Dictionary management UI
+📊 Data Management
+•	Dynamic grid with sorting, paging, filtering
+•	Excel-like data entry forms
+•	File upload and management
+•	Bulletin/announcement system
+•	Audit logging (SYSDTE, SYSUSR fields)
+📱 Modern UI Components
+All components from SkyNet ToolKit:
+•	Texts (text, password, email, date, number, etc.)
+•	Dropdown (with database binding)
+•	CheckBox, Switch, Button
+•	TextArea, FileUpload, ImageBox
+•	Grid, SQLGridSection, DataGrid
+•	DialogBox, FilterSection, MenuList
+•	TitleSection2, ItemPanel, TreeView
+________________________________________
+Framework Philosophy
+Server-Centric, AJAX-Driven
+SkyNet embraces a server-centric architecture where:
+•	Business logic stays on the server (secure, maintainable)
+•	Client makes lightweight AJAX calls via $ApiRequest
+•	Server responds with ApiResponse commands (Navigate, SetElementContents, PopUpWindow, etc.)
+•	Result: 80% less JavaScript, 100% C#/VB.NET for most logic
+Less JavaScript, More C#
+•	Write your application logic in C# (or VB.NET)
+•	Use JavaScript only for UI interactions and DOM manipulation
+•	Framework handles the communication layer
+•	Stay in your comfort zone as a .NET developer
+Rapid Development
+•	Pre-built enterprise components (auth, permissions, i18n)
+•	Minimal boilerplate code
+•	Consistent patterns across entire application
+•	From idea to production in days, not months
+________________________________________
+ 
+Technology Stack
+•	Framework: ASP.NET Core (.NET 10)
+•	Middleware: Custom SkyNet IHandler
+•	Frontend: HTML5, CSS3, Minimal JavaScript
+•	Authentication: Customizable, Cookie-based with encrypted AppKey in Showcase version
+•	Deployment: IIS, Kestrel, Docker-ready
+________________________________________
+Comparison: SKYLITE vs SKYNET
+Feature	SKYLITE	SKYNET
+Platform	.NET Framework 4.5+	ASP.NET Core (.NET 10)
+OS Support	Windows only	Cross-platform (Win/Linux/Mac)
+Hosting	IIS only	IIS, Kestrel, Docker, Cloud
+Architecture	HttpHandler	Middleware
+API/Patterns	✅ Same	✅ Same
+Code Migration	N/A	Near-zero (same folder structure)
+Future Support	Maintenance mode	Active development
+Migration from SKYLITE to SKYNET:
+•	Same folder structure
+•	Same API patterns (ApiRequest/ApiResponse)
+•	Same UI controls (ToolKit)
+•	Minimal code changes required
+•	Replace SkyLite.dll with SkyNet.dll
+•	Update configuration files
+________________________________________
+Learning Path
+For New Users:
+1.	Start Here: Examine XysSignin - simple authentication page
+2.	Understand Navigation: See how Support loads partial views
+3.	Learn Data Display: Study XysUserMV - SQLGridSection usage
+4.	Master Data Entry: Review XysUserEV - form handling and validation
+5.	Explore Advanced: Check XysPermission - dynamic permission matrix
+For Experienced Developers:
+1.	Review WebBase: Understand the core architecture
+2.	Study References: See centralized constants pattern
+3.	Examine ViewPart class: Understand the ViewModel pattern
+4.	Check middleware integration: See Program.cs and IHandler
+________________________________________
+Use Cases
+SkyNet is perfectly suited for:
+•	✅ Enterprise internal portals
+•	✅ Business management systems (ERP, CRM)
+•	✅ Admin dashboards and back-office applications
+•	✅ Line-of-business (LOB) applications
+•	✅ Data-heavy CRUD applications
+•	✅ Multi-tenant SaaS platforms
+•	✅ Applications requiring strong RBAC
+•	✅ Multi-language enterprise applications
+________________________________________
+Conclusion
+The SkyNetDemo project is a masterclass in building a secure, scalable, and maintainable web application with the SkyNet framework on modern ASP.NET Core. Its architecture is perfectly suited for complex business applications like ERPs, CRMs, or internal admin portals where data integrity, role-based security, and rapid development of standardized forms are paramount.
+SkyNet brings the proven patterns of SKYLITE to the modern .NET ecosystem, providing a clear migration path for legacy applications while enabling new projects to benefit from cross-platform, cloud-ready ASP.NET Core.
