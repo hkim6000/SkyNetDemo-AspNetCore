@@ -136,114 +136,84 @@ public static class StaticHttpCurrent<br>
 }<br>
 
 <br>
-Key Features Demonstrated
-🔐 Complete Authentication System
-•	Secure login with encrypted passwords
-•	Email-based registration with OTP verification
-•	Password reset flow
-•	Session management with encrypted cookies
-•	Two-factor authentication support
-👥 User & Role Management
-•	Full CRUD operations for users
-•	Role assignment and management
-•	Hierarchical permission system
-•	User profile with photo upload
-•	Account status management (active/suspended/terminated)
-🛡️ Permission Matrix
-•	Page-level access control
-•	Menu-level permissions
-•	Button/action-level permissions
-•	Dynamic UI based on user role
-•	Database-driven permission configuration
-🌍 Multi-Language Support
-•	Complete translation system
-•	Language selection per user
-•	Page-specific and global translations
-•	Fallback language support
-•	Dictionary management UI
-📊 Data Management
-•	Dynamic grid with sorting, paging, filtering
-•	Excel-like data entry forms
-•	File upload and management
-•	Bulletin/announcement system
-•	Audit logging (SYSDTE, SYSUSR fields)
-📱 Modern UI Components
-All components from SkyNet ToolKit:
-•	Texts (text, password, email, date, number, etc.)
-•	Dropdown (with database binding)
-•	CheckBox, Switch, Button
-•	TextArea, FileUpload, ImageBox
-•	Grid, SQLGridSection, DataGrid
-•	DialogBox, FilterSection, MenuList
-•	TitleSection2, ItemPanel, TreeView
-________________________________________
-Framework Philosophy
-Server-Centric, AJAX-Driven
-SkyNet embraces a server-centric architecture where:
-•	Business logic stays on the server (secure, maintainable)
-•	Client makes lightweight AJAX calls via $ApiRequest
-•	Server responds with ApiResponse commands (Navigate, SetElementContents, PopUpWindow, etc.)
-•	Result: 80% less JavaScript, 100% C#/VB.NET for most logic
-Less JavaScript, More C#
-•	Write your application logic in C# (or VB.NET)
-•	Use JavaScript only for UI interactions and DOM manipulation
-•	Framework handles the communication layer
-•	Stay in your comfort zone as a .NET developer
-Rapid Development
-•	Pre-built enterprise components (auth, permissions, i18n)
-•	Minimal boilerplate code
-•	Consistent patterns across entire application
-•	From idea to production in days, not months
-________________________________________
+<h3>Key Features Demonstrated</h3><br><br>
+<b>Complete Authentication System</b><br>
+•	Secure login with encrypted passwords<br>
+•	Email-based registration with OTP verification<br>
+•	Password reset flow<br>
+•	Session management with encrypted cookies<br>
+•	Two-factor authentication support<br><br>
+<b>User & Role Management</b><br>
+•	Full CRUD operations for users<br>
+•	Role assignment and management<br>
+•	Hierarchical permission system<br>
+•	User profile with photo upload<br>
+•	Account status management (active/suspended/terminated)<br><br>
+<b>Permission Matrix</b><br>
+•	Page-level access control<br>
+•	Menu-level permissions<br>
+•	Button/action-level permissions<br>
+•	Dynamic UI based on user role<br>
+•	Database-driven permission configuration<br><br>
+<b>Multi-Language Support</b><br>
+•	Complete translation system<br>
+•	Language selection per user<br>
+•	Page-specific and global translations<br>
+•	Fallback language support<br>
+•	Dictionary management UI<br><br>
+<b>Data Management</b><br>
+•	Dynamic grid with sorting, paging, filtering<br>
+•	Excel-like data entry forms<br>
+•	File upload and management<br>
+•	Bulletin/announcement system<br>
+•	Audit logging (SYSDTE, SYSUSR fields)<br>
+<b>Modern UI Components</b><br>
+All components from SkyNet ToolKit:<br>
+•	Texts (text, password, email, date, number, etc.)<br>
+•	Dropdown (with database binding)<br>
+•	CheckBox, Switch, Button<br>
+•	TextArea, FileUpload, ImageBox<br>
+•	Grid, SQLGridSection, DataGrid<br>
+•	DialogBox, FilterSection, MenuList<br>
+•	TitleSection2, ItemPanel, TreeView<br><br>
+
+<h3>Framework Philosophy</h3><br>
+<b>Server-Centric, AJAX-Driven</b>br>
+<b>SkyNet embraces a server-centric architecture where:</b><br>
+•	Business logic stays on the server (secure, maintainable)<br>
+•	Client makes lightweight AJAX calls via $ApiRequest<br>
+•	Server responds with ApiResponse commands (Navigate, SetElementContents, PopUpWindow, etc.)<br>
+•	Result: 80% less JavaScript, 100% C# for most logic<br>
+Less JavaScript, More C#<br>
+•	Write your application logic in C#<br>
+•	Use JavaScript only for UI interactions and DOM manipulation<br>
+•	Framework handles the communication layer<br>
+•	Stay in your comfort zone as a .NET developer<br>
+Rapid Development<br>
+•	Pre-built enterprise components (auth, permissions)<br>
+•	Minimal boilerplate code<br>
+•	Consistent patterns across entire application<br>
+•	From idea to production in days, not months<br><br>
+
  
-Technology Stack
-•	Framework: ASP.NET Core (.NET 10)
-•	Middleware: Custom SkyNet IHandler
-•	Frontend: HTML5, CSS3, Minimal JavaScript
-•	Authentication: Customizable, Cookie-based with encrypted AppKey in Showcase version
-•	Deployment: IIS, Kestrel, Docker-ready
-________________________________________
-Comparison: SKYLITE vs SKYNET
-Feature	SKYLITE	SKYNET
-Platform	.NET Framework 4.5+	ASP.NET Core (.NET 10)
-OS Support	Windows only	Cross-platform (Win/Linux/Mac)
-Hosting	IIS only	IIS, Kestrel, Docker, Cloud
-Architecture	HttpHandler	Middleware
-API/Patterns	✅ Same	✅ Same
-Code Migration	N/A	Near-zero (same folder structure)
-Future Support	Maintenance mode	Active development
-Migration from SKYLITE to SKYNET:
-•	Same folder structure
-•	Same API patterns (ApiRequest/ApiResponse)
-•	Same UI controls (ToolKit)
-•	Minimal code changes required
-•	Replace SkyLite.dll with SkyNet.dll
-•	Update configuration files
-________________________________________
-Learning Path
-For New Users:
-1.	Start Here: Examine XysSignin - simple authentication page
-2.	Understand Navigation: See how Support loads partial views
-3.	Learn Data Display: Study XysUserMV - SQLGridSection usage
-4.	Master Data Entry: Review XysUserEV - form handling and validation
-5.	Explore Advanced: Check XysPermission - dynamic permission matrix
-For Experienced Developers:
-1.	Review WebBase: Understand the core architecture
-2.	Study References: See centralized constants pattern
-3.	Examine ViewPart class: Understand the ViewModel pattern
-4.	Check middleware integration: See Program.cs and IHandler
-________________________________________
-Use Cases
-SkyNet is perfectly suited for:
-•	✅ Enterprise internal portals
-•	✅ Business management systems (ERP, CRM)
-•	✅ Admin dashboards and back-office applications
-•	✅ Line-of-business (LOB) applications
-•	✅ Data-heavy CRUD applications
-•	✅ Multi-tenant SaaS platforms
-•	✅ Applications requiring strong RBAC
-•	✅ Multi-language enterprise applications
-________________________________________
-Conclusion
-The SkyNetDemo project is a masterclass in building a secure, scalable, and maintainable web application with the SkyNet framework on modern ASP.NET Core. Its architecture is perfectly suited for complex business applications like ERPs, CRMs, or internal admin portals where data integrity, role-based security, and rapid development of standardized forms are paramount.
-SkyNet brings the proven patterns of SKYLITE to the modern .NET ecosystem, providing a clear migration path for legacy applications while enabling new projects to benefit from cross-platform, cloud-ready ASP.NET Core.
+<h3>Technology Stack</h3><br>
+•	Framework: ASP.NET Core (.NET 10)<br>
+•	Middleware: Custom SkyNet IHandler<br>
+•	Frontend: HTML5, CSS3, Minimal JavaScript<br>
+•	Authentication: Customizable, Cookie-based with encrypted AppKey in Showcase version<br>
+•	Deployment: IIS, Kestrel, Docker-ready<br>
+  
+<h3>Use Cases</h3><br>
+<b>SkyNet is perfectly suited for:</b><br>
+•	✅ Enterprise internal portals<br>
+•	✅ Business management systems (ERP, CRM)<br>
+•	✅ Admin dashboards and back-office applications<br>
+•	✅ Line-of-business (LOB) applications<br>
+•	✅ Data-heavy CRUD applications<br>
+•	✅ Multi-tenant SaaS platforms<br>
+•	✅ Applications requiring strong RBAC<br>
+•	✅ Multi-language enterprise applications<br><br>
+
+<h3>Conclusion</h3><br>
+The SkyNetDemo project is a masterclass in building a secure, scalable, and maintainable web application with the SkyNet framework on modern ASP.NET Core. Its architecture is perfectly suited for complex business applications like ERPs, CRMs, or internal admin portals where data integrity, role-based security, and rapid development of standardized forms are paramount.<br>
+SkyNet brings the proven patterns of SKYLITE to the modern .NET ecosystem, providing a clear migration path for legacy applications while enabling new projects to benefit from cross-platform, cloud-ready ASP.NET Core.<br>
