@@ -2,7 +2,6 @@
 
 <h3>Modern ASP.NET Core Implementation | .NET 10</h3>
 <br>
-
 - SKYLITE framework (C#/VB) <br>
 Platform: IIS / .Net framework 4.5 +<br>
 
