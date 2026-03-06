@@ -136,18 +136,6 @@ app.UseStaticHttpCurrent(); <br>
 <br>
 app.Run();<br>
 <br>
-//////////////////////////////////////////////////////////<br>
-/// 4. define "StaticHttpCurrent"<br>
-//////////////////////////////////////////////////////////<br>
-public static class StaticHttpCurrent<br>
-{<br>
-    public static void UseStaticHttpCurrent(this IApplicationBuilder app)<br>
-    {<br>
-        var httpContextAccessor = app.ApplicationServices.GetRequiredService<IHttpContextAccessor>();<br>
-        var WebHostEnvironment = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();<br>
-        SkyNet.HttpCurrent.Configure(httpContextAccessor, WebHostEnvironment);<br>
-    }<br>
-}<br>
 
 <br>
 <h3>Key Features Demonstrated</h3><br>
