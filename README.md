@@ -99,13 +99,13 @@ ASPNETCoreWeb/<br>
 <h3>Getting Started for Your Own Asp.Net Core Project</h3><br>
 //////////////////////////////////////////////////////////<br>
 - Create a empty web project<br>
-- Add Project Reference : SKYNET.dll <br>
+- Add Project Reference : <b>SKYNET.dll</b><br>
 // the SKYNET.dll file is in the bin\Debug\net10.0 foler in this demo project)<br>
 //////////////////////////////////////////////////////////<br>
 //  Prerequisite : install thru menu-view-terminal in Visual Studio<br>
-//  - dotnet add package Microsoft.Data.SqlClient<br>
-//  - dotnet add package System.Drawing.Common<br>
-//  - Add option to Properties/launchsetting.json file  : "hotReloadEnabled": false<br>
+//  <b>- dotnet add package Microsoft.Data.SqlClient</b><br>
+//  <b>- dotnet add package System.Drawing.Common</b><br>
+//  <b>- Add option to Properties/launchsetting.json file  : <u>"hotReloadEnabled":false</u></b><br>
 //////////////////////////////////////////////////////////<br>
 // "hotReloadEnabled=true" could interrupt page display while development
 //////////////////////////////////////////////////////////<br><br>
