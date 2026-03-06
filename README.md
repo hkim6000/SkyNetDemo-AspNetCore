@@ -100,12 +100,13 @@ ASPNETCoreWeb/<br>
 <h3>Getting Started</h3><br>
 
 <b>program.cs</b><br><br>
-
+<b>
 using System.Reflection.Metadata;<br>
 using SkyNet;<br>
 <br>
 var builder = WebApplication.CreateBuilder(args);<br>
 <br>
+</b>
 
 //////////////////////////////////////////////////////////<br>
 //  Prerequisite : install thru menu-view-terminal in Visual Studio<br>
@@ -117,18 +118,18 @@ var builder = WebApplication.CreateBuilder(args);<br>
 //////////////////////////////////////////////////////////<br>
 
 //////////////////////////////////////////////////////////<br>
-builder.Services.AddHttpContextAccessor(); <b>//1.Add HttpContext Service</b><br>
+<b>builder.Services.AddHttpContextAccessor();  //1.Add HttpContext Service</b><br>
 //////////////////////////////////////////////////////////<br>
 
-var app = builder.Build();<br>
+<b>var app = builder.Build();</b><br>
 
 //////////////////////////////////////////////////////////<br>
-app.UseMiddleware<IHandler>();  <b>//2. use SKYNET.IHANDLER as middleware service</b><br>
-app.UseStaticHttpCurrent(); <b>//3. use static http class service</b><br> 
+<b>app.UseMiddleware<IHandler>();  //2. use SKYNET.IHANDLER as middleware service</b><br>
+<b>app.UseStaticHttpCurrent(); //3. use static http class service</b><br> 
 //////////////////////////////////////////////////////////<br>
 
 <br>
-app.Run();<br>
+<b>app.Run();</b>b><br>
 <br>
 
 <br>
