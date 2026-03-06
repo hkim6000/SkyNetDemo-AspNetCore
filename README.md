@@ -96,8 +96,10 @@ ASPNETCoreWeb/<br>
 
 ----------------------------------------------------------------------------------------<br>
 
-<h3>Getting Started</h3><br>
-
+<h3>Getting Started for Your Own Asp.Net Core Project</h3><br>
+//////////////////////////////////////////////////////////<br>
+- Create a empty web project
+- Add Project Reference : SKYNET.dll
 //////////////////////////////////////////////////////////<br>
 //  Prerequisite : install thru menu-view-terminal in Visual Studio<br>
 //  - dotnet add package Microsoft.Data.SqlClient<br>
