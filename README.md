@@ -71,14 +71,14 @@ ________________________________________
 <h3>Project Structure</h3><br>
 ASPNETCoreWeb/<br>
 ├── Codes/              # web page classes (C#)<br>
-│   ├── XysUser         # no routing rule, free webpage class location
-│   ├── XysUserMV       # web page class can be anywhere in the project folder
-│   ├── XysUserEV       
-│   ├── XysRole         
-│   ├── XysPermission   
+│   ├── XysUser         # no routing rule, free webpage class location<br>
+│   ├── XysUserMV       # web page class can be anywhere in the project folder<br>
+│   ├── XysUserEV       <br>
+│   ├── XysRole         <br>
+│   ├── XysPermission   <br>
 │   └── ...<br>
 ├── bin\Debug\net10.0<br>
-│              └── SkyNet.dll ++        # ⭐ Core framework (single dependency)<br>
+│      └── <b>SkyNet.dll<b> ++ # ⭐ Core framework (single dependency)<br>
 ├── appConfig/<br>
 │   └── application.cfg    # Application configuration<br>
 ├── data/                  # Data storage folder<br>
